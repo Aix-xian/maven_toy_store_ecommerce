@@ -1,0 +1,10 @@
+* text=auto
+*.py text eol=lf
+*.sql text eol=lf
+*.md text eol=lf
+*.txt text eol=lf
+# Analysis baselines use byte-level SHA256; preserve serialized result bytes.
+output/*.json -text
+output/*.csv -text
+assets/*.csv -text
+*.xlsx binary
