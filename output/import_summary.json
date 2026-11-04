@@ -1,0 +1,38 @@
+[
+  {
+    "table": "products",
+    "csv_rows": 4,
+    "database_rows": 4,
+    "rows_match": true
+  },
+  {
+    "table": "website_sessions",
+    "csv_rows": 472871,
+    "database_rows": 472871,
+    "rows_match": true
+  },
+  {
+    "table": "orders",
+    "csv_rows": 32313,
+    "database_rows": 32313,
+    "rows_match": true
+  },
+  {
+    "table": "order_items",
+    "csv_rows": 40025,
+    "database_rows": 40025,
+    "rows_match": true
+  },
+  {
+    "table": "order_item_refunds",
+    "csv_rows": 1731,
+    "database_rows": 1731,
+    "rows_match": true
+  },
+  {
+    "table": "website_pageviews",
+    "csv_rows": 1188124,
+    "database_rows": 1188124,
+    "rows_match": true
+  }
+]

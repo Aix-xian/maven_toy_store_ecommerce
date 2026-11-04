@@ -1,0 +1,310 @@
+{
+  "checked_at": "2026-11-01T23:10:59+08:00",
+  "table_profiles": [
+    {
+      "row_count": 4,
+      "first_at": "2012-03-19 08:00:00",
+      "last_at": "2014-02-05 10:00:00",
+      "table": "products"
+    },
+    {
+      "row_count": 472871,
+      "first_at": "2012-03-19 08:04:16",
+      "last_at": "2015-03-19 07:59:08",
+      "table": "website_sessions"
+    },
+    {
+      "row_count": 32313,
+      "first_at": "2012-03-19 10:42:46",
+      "last_at": "2015-03-19 05:38:31",
+      "table": "orders"
+    },
+    {
+      "row_count": 40025,
+      "first_at": "2012-03-19 10:42:46",
+      "last_at": "2015-03-19 05:38:31",
+      "table": "order_items"
+    },
+    {
+      "row_count": 1731,
+      "first_at": "2012-04-06 11:32:43",
+      "last_at": "2015-04-01 18:11:08",
+      "table": "order_item_refunds"
+    },
+    {
+      "row_count": 1188124,
+      "first_at": "2012-03-19 08:04:16",
+      "last_at": "2015-03-19 07:59:32",
+      "table": "website_pageviews"
+    }
+  ],
+  "checks": [
+    {
+      "check": "schema",
+      "status": "PASS",
+      "violations": 0,
+      "details": []
+    },
+    {
+      "check": "foreign_key_constraints",
+      "status": "PASS",
+      "violations": 0,
+      "details": []
+    },
+    {
+      "check": "products.invalid_time",
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "check": "products.row_count",
+      "status": "PASS",
+      "violations": 0,
+      "details": {
+        "expected": 4,
+        "actual": 4
+      }
+    },
+    {
+      "check": "website_sessions.invalid_time",
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "check": "website_sessions.row_count",
+      "status": "PASS",
+      "violations": 0,
+      "details": {
+        "expected": 472871,
+        "actual": 472871
+      }
+    },
+    {
+      "check": "orders.invalid_time",
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "check": "orders.row_count",
+      "status": "PASS",
+      "violations": 0,
+      "details": {
+        "expected": 32313,
+        "actual": 32313
+      }
+    },
+    {
+      "check": "order_items.invalid_time",
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "check": "order_items.row_count",
+      "status": "PASS",
+      "violations": 0,
+      "details": {
+        "expected": 40025,
+        "actual": 40025
+      }
+    },
+    {
+      "check": "order_item_refunds.invalid_time",
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "check": "order_item_refunds.row_count",
+      "status": "PASS",
+      "violations": 0,
+      "details": {
+        "expected": 1731,
+        "actual": 1731
+      }
+    },
+    {
+      "check": "website_pageviews.invalid_time",
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "check": "website_pageviews.row_count",
+      "status": "PASS",
+      "violations": 0,
+      "details": {
+        "expected": 1188124,
+        "actual": 1188124
+      }
+    },
+    {
+      "check": "website_pageviews.website_session_id.orphan",
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "check": "orders.website_session_id.orphan",
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "check": "orders.primary_product_id.orphan",
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "check": "order_items.order_id.orphan",
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "check": "order_items.product_id.orphan",
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "check": "order_item_refunds.order_item_id.orphan",
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "check": "order_item_refunds.order_id.orphan",
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "check": "blank_product_name",
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "check": "invalid_repeat_flag",
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "check": "unexpected_device_type",
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "check": "blank_pageview_url",
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "check": "invalid_primary_flag",
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "check": "invalid_items_purchased",
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "check": "invalid_order_amount",
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "check": "invalid_item_amount",
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "check": "invalid_refund_amount",
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "check": "zero_refund_amount",
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "check": "pageview_before_session",
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "check": "order_before_session",
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "check": "item_before_order",
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "check": "refund_before_item",
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "check": "item_before_product_launch",
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "check": "order_session_user_mismatch",
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "check": "refund_order_mismatch",
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "check": "orders_without_items",
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "check": "item_count_mismatch",
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "check": "sales_mismatch",
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "check": "cost_mismatch",
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "check": "primary_item_count_mismatch",
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "check": "primary_product_mismatch",
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "check": "refund_exceeds_item_price",
+      "status": "PASS",
+      "violations": 0
+    }
+  ],
+  "context": {
+    "marketing_missing": {
+      "missing_utm_source": 83328,
+      "missing_utm_campaign": 83328,
+      "missing_utm_content": 83328,
+      "missing_http_referer": 39917
+    },
+    "marketing_note": "缺少 UTM 标签可能来自直接访问、自然流量或未打标签的访问，后续结合 http_referer 分析，不自动认定为错误。"
+  },
+  "summary": {
+    "overall": "PASS",
+    "checks_total": 45,
+    "passed": 45,
+    "failed": 0,
+    "review": 0
+  }
+}

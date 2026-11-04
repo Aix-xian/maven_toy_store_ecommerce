@@ -1,0 +1,46 @@
+﻿period,product_a,product_a_name,product_b,product_b_name,pair_orders,all_orders,pair_order_share
+all_observed,1,The Original Mr. Fuzzy,2,The Forever Love Bear,944,32313,0.02921425
+all_observed,1,The Original Mr. Fuzzy,3,The Birthday Sugar Panda,2036,32313,0.06300870
+all_observed,1,The Original Mr. Fuzzy,4,The Hudson River Mini bear,3142,32313,0.09723641
+all_observed,2,The Forever Love Bear,3,The Birthday Sugar Panda,248,32313,0.00767493
+all_observed,2,The Forever Love Bear,4,The Hudson River Mini bear,680,32313,0.02104416
+all_observed,3,The Birthday Sugar Panda,4,The Hudson River Mini bear,662,32313,0.02048711
+all_comparable,1,The Original Mr. Fuzzy,2,The Forever Love Bear,893,30999,0.02880738
+all_comparable,1,The Original Mr. Fuzzy,3,The Birthday Sugar Panda,1916,30999,0.06180845
+all_comparable,1,The Original Mr. Fuzzy,4,The Hudson River Mini bear,2969,30999,0.09577728
+all_comparable,2,The Forever Love Bear,3,The Birthday Sugar Panda,240,30999,0.00774219
+all_comparable,2,The Forever Love Bear,4,The Hudson River Mini bear,641,30999,0.02067809
+all_comparable,3,The Birthday Sugar Panda,4,The Hudson River Mini bear,614,30999,0.01980709
+year_2013,1,The Original Mr. Fuzzy,2,The Forever Love Bear,115,7447,0.01544246
+year_2013,1,The Original Mr. Fuzzy,3,The Birthday Sugar Panda,47,7447,0.00631127
+year_2013,2,The Forever Love Bear,3,The Birthday Sugar Panda,4,7447,0.00053713
+year_2014,1,The Original Mr. Fuzzy,2,The Forever Love Bear,629,16860,0.03730724
+year_2014,1,The Original Mr. Fuzzy,3,The Birthday Sugar Panda,1524,16860,0.09039146
+year_2014,1,The Original Mr. Fuzzy,4,The Hudson River Mini bear,2426,16860,0.14389087
+year_2014,2,The Forever Love Bear,3,The Birthday Sugar Panda,187,16860,0.01109134
+year_2014,2,The Forever Love Bear,4,The Hudson River Mini bear,460,16860,0.02728351
+year_2014,3,The Birthday Sugar Panda,4,The Hudson River Mini bear,495,16860,0.02935943
+jan_feb_2014,1,The Original Mr. Fuzzy,2,The Forever Love Bear,74,2003,0.03694458
+jan_feb_2014,1,The Original Mr. Fuzzy,3,The Birthday Sugar Panda,151,2003,0.07538692
+jan_feb_2014,1,The Original Mr. Fuzzy,4,The Hudson River Mini bear,116,2003,0.05791313
+jan_feb_2014,2,The Forever Love Bear,3,The Birthday Sugar Panda,29,2003,0.01447828
+jan_feb_2014,2,The Forever Love Bear,4,The Hudson River Mini bear,59,2003,0.02945582
+jan_feb_2014,3,The Birthday Sugar Panda,4,The Hudson River Mini bear,27,2003,0.01347978
+jan_feb_2015,1,The Original Mr. Fuzzy,2,The Forever Love Bear,149,4166,0.03576572
+jan_feb_2015,1,The Original Mr. Fuzzy,3,The Birthday Sugar Panda,345,4166,0.08281325
+jan_feb_2015,1,The Original Mr. Fuzzy,4,The Hudson River Mini bear,543,4166,0.13034085
+jan_feb_2015,2,The Forever Love Bear,3,The Birthday Sugar Panda,49,4166,0.01176188
+jan_feb_2015,2,The Forever Love Bear,4,The Hudson River Mini bear,181,4166,0.04344695
+jan_feb_2015,3,The Birthday Sugar Panda,4,The Hudson River Mini bear,119,4166,0.02856457
+nov_2014,1,The Original Mr. Fuzzy,2,The Forever Love Bear,76,1985,0.03828715
+nov_2014,1,The Original Mr. Fuzzy,3,The Birthday Sugar Panda,173,1985,0.08715365
+nov_2014,1,The Original Mr. Fuzzy,4,The Hudson River Mini bear,324,1985,0.16322418
+nov_2014,2,The Forever Love Bear,3,The Birthday Sugar Panda,19,1985,0.00957179
+nov_2014,2,The Forever Love Bear,4,The Hudson River Mini bear,55,1985,0.02770781
+nov_2014,3,The Birthday Sugar Panda,4,The Hudson River Mini bear,70,1985,0.03526448
+dec_2014,1,The Original Mr. Fuzzy,2,The Forever Love Bear,83,2314,0.03586863
+dec_2014,1,The Original Mr. Fuzzy,3,The Birthday Sugar Panda,226,2314,0.09766638
+dec_2014,1,The Original Mr. Fuzzy,4,The Hudson River Mini bear,310,2314,0.13396716
+dec_2014,2,The Forever Love Bear,3,The Birthday Sugar Panda,27,2314,0.01166811
+dec_2014,2,The Forever Love Bear,4,The Hudson River Mini bear,63,2314,0.02722558
+dec_2014,3,The Birthday Sugar Panda,4,The Hudson River Mini bear,75,2314,0.03241141

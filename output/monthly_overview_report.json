@@ -1,0 +1,1364 @@
+{
+  "status": "PASS",
+  "generated_at": "2026-11-01T23:35:25+08:00",
+  "quality_checked_at": "2026-11-01T23:10:59+08:00",
+  "sql_sha256": "34d5be7401ab5a82e5cd5020cda605ee18a3a92a912c04ec5ad2dd458b242b89",
+  "source_context": {
+    "sessions": 472871,
+    "session_first_at": "2012-03-19T08:04:16",
+    "session_last_at": "2015-03-19T07:59:08",
+    "orders": 32313,
+    "converted_sessions": 32313,
+    "sales_usd": "1938509.75000000",
+    "cogs_usd": "722370.25000000",
+    "order_first_at": "2012-03-19T10:42:46",
+    "order_last_at": "2015-03-19T05:38:31",
+    "cross_month_orders": 6
+  },
+  "validation": {
+    "passed": 126,
+    "failed": 0,
+    "checks": [
+      {
+        "check": "nonempty_source",
+        "passed": true
+      },
+      {
+        "check": "website_sessions.quality_count",
+        "passed": true
+      },
+      {
+        "check": "website_sessions.quality_first",
+        "passed": true
+      },
+      {
+        "check": "website_sessions.quality_last",
+        "passed": true
+      },
+      {
+        "check": "orders.quality_count",
+        "passed": true
+      },
+      {
+        "check": "orders.quality_first",
+        "passed": true
+      },
+      {
+        "check": "orders.quality_last",
+        "passed": true
+      },
+      {
+        "check": "unique_contiguous_calendar",
+        "passed": true
+      },
+      {
+        "check": "total.sessions",
+        "passed": true
+      },
+      {
+        "check": "total.converted_sessions",
+        "passed": true
+      },
+      {
+        "check": "total.session_orders",
+        "passed": true
+      },
+      {
+        "check": "total.orders",
+        "passed": true
+      },
+      {
+        "check": "total.sales_usd",
+        "passed": true
+      },
+      {
+        "check": "total.cogs_usd",
+        "passed": true
+      },
+      {
+        "check": "total.session_sales",
+        "passed": true
+      },
+      {
+        "check": "2012-03-01.conversion_bounds",
+        "passed": true
+      },
+      {
+        "check": "2012-03-01.orders_per_converted_session",
+        "passed": true
+      },
+      {
+        "check": "2012-03-01.nonnegative",
+        "passed": true
+      },
+      {
+        "check": "2012-04-01.conversion_bounds",
+        "passed": true
+      },
+      {
+        "check": "2012-04-01.orders_per_converted_session",
+        "passed": true
+      },
+      {
+        "check": "2012-04-01.nonnegative",
+        "passed": true
+      },
+      {
+        "check": "2012-05-01.conversion_bounds",
+        "passed": true
+      },
+      {
+        "check": "2012-05-01.orders_per_converted_session",
+        "passed": true
+      },
+      {
+        "check": "2012-05-01.nonnegative",
+        "passed": true
+      },
+      {
+        "check": "2012-06-01.conversion_bounds",
+        "passed": true
+      },
+      {
+        "check": "2012-06-01.orders_per_converted_session",
+        "passed": true
+      },
+      {
+        "check": "2012-06-01.nonnegative",
+        "passed": true
+      },
+      {
+        "check": "2012-07-01.conversion_bounds",
+        "passed": true
+      },
+      {
+        "check": "2012-07-01.orders_per_converted_session",
+        "passed": true
+      },
+      {
+        "check": "2012-07-01.nonnegative",
+        "passed": true
+      },
+      {
+        "check": "2012-08-01.conversion_bounds",
+        "passed": true
+      },
+      {
+        "check": "2012-08-01.orders_per_converted_session",
+        "passed": true
+      },
+      {
+        "check": "2012-08-01.nonnegative",
+        "passed": true
+      },
+      {
+        "check": "2012-09-01.conversion_bounds",
+        "passed": true
+      },
+      {
+        "check": "2012-09-01.orders_per_converted_session",
+        "passed": true
+      },
+      {
+        "check": "2012-09-01.nonnegative",
+        "passed": true
+      },
+      {
+        "check": "2012-10-01.conversion_bounds",
+        "passed": true
+      },
+      {
+        "check": "2012-10-01.orders_per_converted_session",
+        "passed": true
+      },
+      {
+        "check": "2012-10-01.nonnegative",
+        "passed": true
+      },
+      {
+        "check": "2012-11-01.conversion_bounds",
+        "passed": true
+      },
+      {
+        "check": "2012-11-01.orders_per_converted_session",
+        "passed": true
+      },
+      {
+        "check": "2012-11-01.nonnegative",
+        "passed": true
+      },
+      {
+        "check": "2012-12-01.conversion_bounds",
+        "passed": true
+      },
+      {
+        "check": "2012-12-01.orders_per_converted_session",
+        "passed": true
+      },
+      {
+        "check": "2012-12-01.nonnegative",
+        "passed": true
+      },
+      {
+        "check": "2013-01-01.conversion_bounds",
+        "passed": true
+      },
+      {
+        "check": "2013-01-01.orders_per_converted_session",
+        "passed": true
+      },
+      {
+        "check": "2013-01-01.nonnegative",
+        "passed": true
+      },
+      {
+        "check": "2013-02-01.conversion_bounds",
+        "passed": true
+      },
+      {
+        "check": "2013-02-01.orders_per_converted_session",
+        "passed": true
+      },
+      {
+        "check": "2013-02-01.nonnegative",
+        "passed": true
+      },
+      {
+        "check": "2013-03-01.conversion_bounds",
+        "passed": true
+      },
+      {
+        "check": "2013-03-01.orders_per_converted_session",
+        "passed": true
+      },
+      {
+        "check": "2013-03-01.nonnegative",
+        "passed": true
+      },
+      {
+        "check": "2013-04-01.conversion_bounds",
+        "passed": true
+      },
+      {
+        "check": "2013-04-01.orders_per_converted_session",
+        "passed": true
+      },
+      {
+        "check": "2013-04-01.nonnegative",
+        "passed": true
+      },
+      {
+        "check": "2013-05-01.conversion_bounds",
+        "passed": true
+      },
+      {
+        "check": "2013-05-01.orders_per_converted_session",
+        "passed": true
+      },
+      {
+        "check": "2013-05-01.nonnegative",
+        "passed": true
+      },
+      {
+        "check": "2013-06-01.conversion_bounds",
+        "passed": true
+      },
+      {
+        "check": "2013-06-01.orders_per_converted_session",
+        "passed": true
+      },
+      {
+        "check": "2013-06-01.nonnegative",
+        "passed": true
+      },
+      {
+        "check": "2013-07-01.conversion_bounds",
+        "passed": true
+      },
+      {
+        "check": "2013-07-01.orders_per_converted_session",
+        "passed": true
+      },
+      {
+        "check": "2013-07-01.nonnegative",
+        "passed": true
+      },
+      {
+        "check": "2013-08-01.conversion_bounds",
+        "passed": true
+      },
+      {
+        "check": "2013-08-01.orders_per_converted_session",
+        "passed": true
+      },
+      {
+        "check": "2013-08-01.nonnegative",
+        "passed": true
+      },
+      {
+        "check": "2013-09-01.conversion_bounds",
+        "passed": true
+      },
+      {
+        "check": "2013-09-01.orders_per_converted_session",
+        "passed": true
+      },
+      {
+        "check": "2013-09-01.nonnegative",
+        "passed": true
+      },
+      {
+        "check": "2013-10-01.conversion_bounds",
+        "passed": true
+      },
+      {
+        "check": "2013-10-01.orders_per_converted_session",
+        "passed": true
+      },
+      {
+        "check": "2013-10-01.nonnegative",
+        "passed": true
+      },
+      {
+        "check": "2013-11-01.conversion_bounds",
+        "passed": true
+      },
+      {
+        "check": "2013-11-01.orders_per_converted_session",
+        "passed": true
+      },
+      {
+        "check": "2013-11-01.nonnegative",
+        "passed": true
+      },
+      {
+        "check": "2013-12-01.conversion_bounds",
+        "passed": true
+      },
+      {
+        "check": "2013-12-01.orders_per_converted_session",
+        "passed": true
+      },
+      {
+        "check": "2013-12-01.nonnegative",
+        "passed": true
+      },
+      {
+        "check": "2014-01-01.conversion_bounds",
+        "passed": true
+      },
+      {
+        "check": "2014-01-01.orders_per_converted_session",
+        "passed": true
+      },
+      {
+        "check": "2014-01-01.nonnegative",
+        "passed": true
+      },
+      {
+        "check": "2014-02-01.conversion_bounds",
+        "passed": true
+      },
+      {
+        "check": "2014-02-01.orders_per_converted_session",
+        "passed": true
+      },
+      {
+        "check": "2014-02-01.nonnegative",
+        "passed": true
+      },
+      {
+        "check": "2014-03-01.conversion_bounds",
+        "passed": true
+      },
+      {
+        "check": "2014-03-01.orders_per_converted_session",
+        "passed": true
+      },
+      {
+        "check": "2014-03-01.nonnegative",
+        "passed": true
+      },
+      {
+        "check": "2014-04-01.conversion_bounds",
+        "passed": true
+      },
+      {
+        "check": "2014-04-01.orders_per_converted_session",
+        "passed": true
+      },
+      {
+        "check": "2014-04-01.nonnegative",
+        "passed": true
+      },
+      {
+        "check": "2014-05-01.conversion_bounds",
+        "passed": true
+      },
+      {
+        "check": "2014-05-01.orders_per_converted_session",
+        "passed": true
+      },
+      {
+        "check": "2014-05-01.nonnegative",
+        "passed": true
+      },
+      {
+        "check": "2014-06-01.conversion_bounds",
+        "passed": true
+      },
+      {
+        "check": "2014-06-01.orders_per_converted_session",
+        "passed": true
+      },
+      {
+        "check": "2014-06-01.nonnegative",
+        "passed": true
+      },
+      {
+        "check": "2014-07-01.conversion_bounds",
+        "passed": true
+      },
+      {
+        "check": "2014-07-01.orders_per_converted_session",
+        "passed": true
+      },
+      {
+        "check": "2014-07-01.nonnegative",
+        "passed": true
+      },
+      {
+        "check": "2014-08-01.conversion_bounds",
+        "passed": true
+      },
+      {
+        "check": "2014-08-01.orders_per_converted_session",
+        "passed": true
+      },
+      {
+        "check": "2014-08-01.nonnegative",
+        "passed": true
+      },
+      {
+        "check": "2014-09-01.conversion_bounds",
+        "passed": true
+      },
+      {
+        "check": "2014-09-01.orders_per_converted_session",
+        "passed": true
+      },
+      {
+        "check": "2014-09-01.nonnegative",
+        "passed": true
+      },
+      {
+        "check": "2014-10-01.conversion_bounds",
+        "passed": true
+      },
+      {
+        "check": "2014-10-01.orders_per_converted_session",
+        "passed": true
+      },
+      {
+        "check": "2014-10-01.nonnegative",
+        "passed": true
+      },
+      {
+        "check": "2014-11-01.conversion_bounds",
+        "passed": true
+      },
+      {
+        "check": "2014-11-01.orders_per_converted_session",
+        "passed": true
+      },
+      {
+        "check": "2014-11-01.nonnegative",
+        "passed": true
+      },
+      {
+        "check": "2014-12-01.conversion_bounds",
+        "passed": true
+      },
+      {
+        "check": "2014-12-01.orders_per_converted_session",
+        "passed": true
+      },
+      {
+        "check": "2014-12-01.nonnegative",
+        "passed": true
+      },
+      {
+        "check": "2015-01-01.conversion_bounds",
+        "passed": true
+      },
+      {
+        "check": "2015-01-01.orders_per_converted_session",
+        "passed": true
+      },
+      {
+        "check": "2015-01-01.nonnegative",
+        "passed": true
+      },
+      {
+        "check": "2015-02-01.conversion_bounds",
+        "passed": true
+      },
+      {
+        "check": "2015-02-01.orders_per_converted_session",
+        "passed": true
+      },
+      {
+        "check": "2015-02-01.nonnegative",
+        "passed": true
+      },
+      {
+        "check": "2015-03-01.conversion_bounds",
+        "passed": true
+      },
+      {
+        "check": "2015-03-01.orders_per_converted_session",
+        "passed": true
+      },
+      {
+        "check": "2015-03-01.nonnegative",
+        "passed": true
+      }
+    ]
+  },
+  "period": {
+    "all_months": 37,
+    "comparable_months": 35,
+    "first_comparable_month": "2012-04-01",
+    "last_comparable_month": "2015-02-01",
+    "boundary_months": [
+      "2012-03-01",
+      "2015-03-01"
+    ]
+  },
+  "all_period_metrics": {
+    "sessions": 472871,
+    "converted_sessions": 32313,
+    "session_orders": 32313,
+    "orders": 32313,
+    "session_sales_usd": "1938509.75000000",
+    "sales_usd": "1938509.75000000",
+    "cogs_usd": "722370.25000000",
+    "conversion_rate": "0.06833365",
+    "aov_usd": "59.99163649",
+    "revenue_per_session_usd": "4.09944731",
+    "product_margin_before_refunds_usd": "1216139.50000000"
+  },
+  "comparable_period_metrics": {
+    "sessions": 455909,
+    "converted_sessions": 30999,
+    "session_orders": 30999,
+    "orders": 30999,
+    "session_sales_usd": "1856559.28000000",
+    "sales_usd": "1856559.28000000",
+    "cogs_usd": "692280.28000000",
+    "conversion_rate": "0.06799383",
+    "aov_usd": "59.89094100",
+    "revenue_per_session_usd": "4.07221459",
+    "product_margin_before_refunds_usd": "1164279.00000000"
+  },
+  "highest_sales_comparable_month": {
+    "month_start": "2014-12-01",
+    "sessions": 29722,
+    "converted_sessions": 2314,
+    "session_orders": 2314,
+    "orders": 2314,
+    "session_sales_usd": "144823.02000000",
+    "sales_usd": "144823.02000000",
+    "cogs_usd": "52966.02000000",
+    "period_status": "comparable_month",
+    "conversion_rate": "0.07785479",
+    "aov_usd": "62.58557476",
+    "revenue_per_session_usd": "4.87258664",
+    "product_margin_before_refunds_usd": "91857.00000000",
+    "sessions_mom": "0.18296517",
+    "orders_mom": "0.16574307",
+    "sales_mom": "0.12999105",
+    "conversion_rate_change_pp": "-0.11501874",
+    "aov_mom": "-0.03066887",
+    "revenue_per_session_mom": "-0.04478080"
+  },
+  "monthly_rows": [
+    {
+      "month_start": "2012-03-01",
+      "sessions": 1879,
+      "converted_sessions": 60,
+      "session_orders": 60,
+      "orders": 60,
+      "session_sales_usd": "2999.40000000",
+      "sales_usd": "2999.40000000",
+      "cogs_usd": "1169.40000000",
+      "period_status": "boundary_month",
+      "conversion_rate": "0.03193188",
+      "aov_usd": "49.99000000",
+      "revenue_per_session_usd": "1.59627461",
+      "product_margin_before_refunds_usd": "1830.00000000",
+      "sessions_mom": null,
+      "orders_mom": null,
+      "sales_mom": null,
+      "conversion_rate_change_pp": null,
+      "aov_mom": null,
+      "revenue_per_session_mom": null
+    },
+    {
+      "month_start": "2012-04-01",
+      "sessions": 3734,
+      "converted_sessions": 99,
+      "session_orders": 99,
+      "orders": 99,
+      "session_sales_usd": "4949.01000000",
+      "sales_usd": "4949.01000000",
+      "cogs_usd": "1929.51000000",
+      "period_status": "comparable_month",
+      "conversion_rate": "0.02651312",
+      "aov_usd": "49.99000000",
+      "revenue_per_session_usd": "1.32539100",
+      "product_margin_before_refunds_usd": "3019.50000000",
+      "sessions_mom": null,
+      "orders_mom": null,
+      "sales_mom": null,
+      "conversion_rate_change_pp": null,
+      "aov_mom": null,
+      "revenue_per_session_mom": null
+    },
+    {
+      "month_start": "2012-05-01",
+      "sessions": 3736,
+      "converted_sessions": 108,
+      "session_orders": 108,
+      "orders": 108,
+      "session_sales_usd": "5398.92000000",
+      "sales_usd": "5398.92000000",
+      "cogs_usd": "2104.92000000",
+      "period_status": "comparable_month",
+      "conversion_rate": "0.02890792",
+      "aov_usd": "49.99000000",
+      "revenue_per_session_usd": "1.44510707",
+      "product_margin_before_refunds_usd": "3294.00000000",
+      "sessions_mom": "0.00053562",
+      "orders_mom": "0.09090909",
+      "sales_mom": "0.09090909",
+      "conversion_rate_change_pp": "0.23948003",
+      "aov_mom": "0.00000000",
+      "revenue_per_session_mom": "0.09032509"
+    },
+    {
+      "month_start": "2012-06-01",
+      "sessions": 3963,
+      "converted_sessions": 140,
+      "session_orders": 140,
+      "orders": 140,
+      "session_sales_usd": "6998.60000000",
+      "sales_usd": "6998.60000000",
+      "cogs_usd": "2728.60000000",
+      "period_status": "comparable_month",
+      "conversion_rate": "0.03532677",
+      "aov_usd": "49.99000000",
+      "revenue_per_session_usd": "1.76598536",
+      "product_margin_before_refunds_usd": "4270.00000000",
+      "sessions_mom": "0.06076017",
+      "orders_mom": "0.29629630",
+      "sales_mom": "0.29629630",
+      "conversion_rate_change_pp": "0.64188497",
+      "aov_mom": "0.00000000",
+      "revenue_per_session_mom": "0.22204465"
+    },
+    {
+      "month_start": "2012-07-01",
+      "sessions": 4249,
+      "converted_sessions": 169,
+      "session_orders": 169,
+      "orders": 169,
+      "session_sales_usd": "8448.31000000",
+      "sales_usd": "8448.31000000",
+      "cogs_usd": "3293.81000000",
+      "period_status": "comparable_month",
+      "conversion_rate": "0.03977406",
+      "aov_usd": "49.99000000",
+      "revenue_per_session_usd": "1.98830548",
+      "product_margin_before_refunds_usd": "5154.50000000",
+      "sessions_mom": "0.07216755",
+      "orders_mom": "0.20714286",
+      "sales_mom": "0.20714286",
+      "conversion_rate_change_pp": "0.44472918",
+      "aov_mom": "0.00000000",
+      "revenue_per_session_mom": "0.12589013"
+    },
+    {
+      "month_start": "2012-08-01",
+      "sessions": 6097,
+      "converted_sessions": 228,
+      "session_orders": 228,
+      "orders": 228,
+      "session_sales_usd": "11397.72000000",
+      "sales_usd": "11397.72000000",
+      "cogs_usd": "4443.72000000",
+      "period_status": "comparable_month",
+      "conversion_rate": "0.03739544",
+      "aov_usd": "49.99000000",
+      "revenue_per_session_usd": "1.86939806",
+      "product_margin_before_refunds_usd": "6954.00000000",
+      "sessions_mom": "0.43492586",
+      "orders_mom": "0.34911243",
+      "sales_mom": "0.34911243",
+      "conversion_rate_change_pp": "-0.23786241",
+      "aov_mom": "0.00000000",
+      "revenue_per_session_mom": "-0.05980340"
+    },
+    {
+      "month_start": "2012-09-01",
+      "sessions": 6546,
+      "converted_sessions": 287,
+      "session_orders": 287,
+      "orders": 287,
+      "session_sales_usd": "14347.13000000",
+      "sales_usd": "14347.13000000",
+      "cogs_usd": "5593.63000000",
+      "period_status": "comparable_month",
+      "conversion_rate": "0.04384357",
+      "aov_usd": "49.99000000",
+      "revenue_per_session_usd": "2.19173999",
+      "product_margin_before_refunds_usd": "8753.50000000",
+      "sessions_mom": "0.07364278",
+      "orders_mom": "0.25877193",
+      "sales_mom": "0.25877193",
+      "conversion_rate_change_pp": "0.64481282",
+      "aov_mom": "0.00000000",
+      "revenue_per_session_mom": "0.17243087"
+    },
+    {
+      "month_start": "2012-10-01",
+      "sessions": 8183,
+      "converted_sessions": 371,
+      "session_orders": 371,
+      "orders": 371,
+      "session_sales_usd": "18546.29000000",
+      "sales_usd": "18546.29000000",
+      "cogs_usd": "7230.79000000",
+      "period_status": "comparable_month",
+      "conversion_rate": "0.04533790",
+      "aov_usd": "49.99000000",
+      "revenue_per_session_usd": "2.26644140",
+      "product_margin_before_refunds_usd": "11315.50000000",
+      "sessions_mom": "0.25007638",
+      "orders_mom": "0.29268293",
+      "sales_mom": "0.29268293",
+      "conversion_rate_change_pp": "0.14943270",
+      "aov_mom": "0.00000000",
+      "revenue_per_session_mom": "0.03408315"
+    },
+    {
+      "month_start": "2012-11-01",
+      "sessions": 14011,
+      "converted_sessions": 618,
+      "session_orders": 618,
+      "orders": 618,
+      "session_sales_usd": "30893.82000000",
+      "sales_usd": "30893.82000000",
+      "cogs_usd": "12044.82000000",
+      "period_status": "comparable_month",
+      "conversion_rate": "0.04410820",
+      "aov_usd": "49.99000000",
+      "revenue_per_session_usd": "2.20496895",
+      "product_margin_before_refunds_usd": "18849.00000000",
+      "sessions_mom": "0.71220824",
+      "orders_mom": "0.66576819",
+      "sales_mom": "0.66576819",
+      "conversion_rate_change_pp": "-0.12296949",
+      "aov_mom": "0.00000000",
+      "revenue_per_session_mom": "-0.02712289"
+    },
+    {
+      "month_start": "2012-12-01",
+      "sessions": 10072,
+      "converted_sessions": 506,
+      "session_orders": 506,
+      "orders": 506,
+      "session_sales_usd": "25294.94000000",
+      "sales_usd": "25294.94000000",
+      "cogs_usd": "9861.94000000",
+      "period_status": "comparable_month",
+      "conversion_rate": "0.05023828",
+      "aov_usd": "49.99000000",
+      "revenue_per_session_usd": "2.51141183",
+      "product_margin_before_refunds_usd": "15433.00000000",
+      "sessions_mom": "-0.28113625",
+      "orders_mom": "-0.18122977",
+      "sales_mom": "-0.18122977",
+      "conversion_rate_change_pp": "0.61300837",
+      "aov_mom": "0.00000000",
+      "revenue_per_session_mom": "0.13897832"
+    },
+    {
+      "month_start": "2013-01-01",
+      "sessions": 6401,
+      "converted_sessions": 391,
+      "session_orders": 391,
+      "orders": 390,
+      "session_sales_usd": "20016.09000000",
+      "sales_usd": "19966.10000000",
+      "cogs_usd": "7742.10000000",
+      "period_status": "comparable_month",
+      "conversion_rate": "0.06108421",
+      "aov_usd": "51.19512821",
+      "revenue_per_session_usd": "3.12702546",
+      "product_margin_before_refunds_usd": "12224.00000000",
+      "sessions_mom": "-0.36447577",
+      "orders_mom": "-0.22924901",
+      "sales_mom": "-0.21066822",
+      "conversion_rate_change_pp": "1.08459212",
+      "aov_mom": "0.02410739",
+      "revenue_per_session_mom": "0.24512651"
+    },
+    {
+      "month_start": "2013-02-01",
+      "sessions": 7168,
+      "converted_sessions": 497,
+      "session_orders": 497,
+      "orders": 498,
+      "session_sales_usd": "26465.03000000",
+      "sales_usd": "26515.02000000",
+      "cogs_usd": "10192.02000000",
+      "period_status": "comparable_month",
+      "conversion_rate": "0.06933594",
+      "aov_usd": "53.24301205",
+      "revenue_per_session_usd": "3.69210798",
+      "product_margin_before_refunds_usd": "16323.00000000",
+      "sessions_mom": "0.11982503",
+      "orders_mom": "0.27692308",
+      "sales_mom": "0.32800196",
+      "conversion_rate_change_pp": "0.82517319",
+      "aov_mom": "0.04000154",
+      "revenue_per_session_mom": "0.18070928"
+    },
+    {
+      "month_start": "2013-03-01",
+      "sessions": 6264,
+      "converted_sessions": 385,
+      "session_orders": 385,
+      "orders": 385,
+      "session_sales_usd": "19896.15000000",
+      "sales_usd": "19896.15000000",
+      "cogs_usd": "7698.65000000",
+      "period_status": "comparable_month",
+      "conversion_rate": "0.06146232",
+      "aov_usd": "51.67831169",
+      "revenue_per_session_usd": "3.17626916",
+      "product_margin_before_refunds_usd": "12197.50000000",
+      "sessions_mom": "-0.12611607",
+      "orders_mom": "-0.22690763",
+      "sales_mom": "-0.24962719",
+      "conversion_rate_change_pp": "-0.78736131",
+      "aov_mom": "-0.02938790",
+      "revenue_per_session_mom": "-0.13971390"
+    },
+    {
+      "month_start": "2013-04-01",
+      "sessions": 7971,
+      "converted_sessions": 553,
+      "session_orders": 553,
+      "orders": 553,
+      "session_sales_usd": "28584.47000000",
+      "sales_usd": "28584.47000000",
+      "cogs_usd": "11059.97000000",
+      "period_status": "comparable_month",
+      "conversion_rate": "0.06937649",
+      "aov_usd": "51.68981917",
+      "revenue_per_session_usd": "3.58605821",
+      "product_margin_before_refunds_usd": "17524.50000000",
+      "sessions_mom": "0.27250958",
+      "orders_mom": "0.43636364",
+      "sales_mom": "0.43668348",
+      "conversion_rate_change_pp": "0.79141654",
+      "aov_mom": "0.00022268",
+      "revenue_per_session_mom": "0.12901585"
+    },
+    {
+      "month_start": "2013-05-01",
+      "sessions": 8449,
+      "converted_sessions": 571,
+      "session_orders": 571,
+      "orders": 571,
+      "session_sales_usd": "29364.29000000",
+      "sales_usd": "29364.29000000",
+      "cogs_usd": "11374.79000000",
+      "period_status": "comparable_month",
+      "conversion_rate": "0.06758196",
+      "aov_usd": "51.42607706",
+      "revenue_per_session_usd": "3.47547520",
+      "product_margin_before_refunds_usd": "17989.50000000",
+      "sessions_mom": "0.05996738",
+      "orders_mom": "0.03254973",
+      "sales_mom": "0.02728125",
+      "conversion_rate_change_pp": "-0.17945274",
+      "aov_mom": "-0.00510240",
+      "revenue_per_session_mom": "-0.03083692"
+    },
+    {
+      "month_start": "2013-06-01",
+      "sessions": 8325,
+      "converted_sessions": 594,
+      "session_orders": 594,
+      "orders": 593,
+      "session_sales_usd": "30594.06000000",
+      "sales_usd": "30544.07000000",
+      "cogs_usd": "11827.57000000",
+      "period_status": "comparable_month",
+      "conversion_rate": "0.07135135",
+      "aov_usd": "51.50770658",
+      "revenue_per_session_usd": "3.67496216",
+      "product_margin_before_refunds_usd": "18716.50000000",
+      "sessions_mom": "-0.01467629",
+      "orders_mom": "0.03852890",
+      "sales_mom": "0.04017737",
+      "conversion_rate_change_pp": "0.37693890",
+      "aov_mom": "0.00158732",
+      "revenue_per_session_mom": "0.05739847"
+    },
+    {
+      "month_start": "2013-07-01",
+      "sessions": 8903,
+      "converted_sessions": 603,
+      "session_orders": 603,
+      "orders": 604,
+      "session_sales_usd": "31093.97000000",
+      "sales_usd": "31143.96000000",
+      "cogs_usd": "12056.96000000",
+      "period_status": "comparable_month",
+      "conversion_rate": "0.06772998",
+      "aov_usd": "51.56284768",
+      "revenue_per_session_usd": "3.49252724",
+      "product_margin_before_refunds_usd": "19087.00000000",
+      "sessions_mom": "0.06942943",
+      "orders_mom": "0.01854975",
+      "sales_mom": "0.01964015",
+      "conversion_rate_change_pp": "-0.36213727",
+      "aov_mom": "0.00107054",
+      "revenue_per_session_mom": "-0.04964267"
+    },
+    {
+      "month_start": "2013-08-01",
+      "sessions": 9180,
+      "converted_sessions": 608,
+      "session_orders": 608,
+      "orders": 608,
+      "session_sales_usd": "31373.92000000",
+      "sales_usd": "31373.92000000",
+      "cogs_usd": "12143.92000000",
+      "period_status": "comparable_month",
+      "conversion_rate": "0.06623094",
+      "aov_usd": "51.60184211",
+      "revenue_per_session_usd": "3.41763834",
+      "product_margin_before_refunds_usd": "19230.00000000",
+      "sessions_mom": "0.03111311",
+      "orders_mom": "0.00662252",
+      "sales_mom": "0.00738378",
+      "conversion_rate_change_pp": "-0.14990418",
+      "aov_mom": "0.00075625",
+      "revenue_per_session_mom": "-0.02144261"
+    },
+    {
+      "month_start": "2013-09-01",
+      "sessions": 9580,
+      "converted_sessions": 629,
+      "session_orders": 629,
+      "orders": 629,
+      "session_sales_usd": "32723.65000000",
+      "sales_usd": "32723.65000000",
+      "cogs_usd": "12670.15000000",
+      "period_status": "comparable_month",
+      "conversion_rate": "0.06565762",
+      "aov_usd": "52.02488076",
+      "revenue_per_session_usd": "3.41582985",
+      "product_margin_before_refunds_usd": "20053.50000000",
+      "sessions_mom": "0.04357298",
+      "orders_mom": "0.03453947",
+      "sales_mom": "0.04302076",
+      "conversion_rate_change_pp": "-0.05733168",
+      "aov_mom": "0.00819813",
+      "revenue_per_session_mom": "-0.00052916"
+    },
+    {
+      "month_start": "2013-10-01",
+      "sessions": 10773,
+      "converted_sessions": 708,
+      "session_orders": 708,
+      "orders": 708,
+      "session_sales_usd": "38242.62000000",
+      "sales_usd": "38242.62000000",
+      "cogs_usd": "14788.62000000",
+      "period_status": "comparable_month",
+      "conversion_rate": "0.06571986",
+      "aov_usd": "54.01500000",
+      "revenue_per_session_usd": "3.54985798",
+      "product_margin_before_refunds_usd": "23454.00000000",
+      "sessions_mom": "0.12453027",
+      "orders_mom": "0.12559618",
+      "sales_mom": "0.16865386",
+      "conversion_rate_change_pp": "0.00622352",
+      "aov_mom": "0.03825322",
+      "revenue_per_session_mom": "0.03923735"
+    },
+    {
+      "month_start": "2013-11-01",
+      "sessions": 14032,
+      "converted_sessions": 861,
+      "session_orders": 861,
+      "orders": 861,
+      "session_sales_usd": "46631.02000000",
+      "sales_usd": "46631.02000000",
+      "cogs_usd": "18024.02000000",
+      "period_status": "comparable_month",
+      "conversion_rate": "0.06135975",
+      "aov_usd": "54.15914053",
+      "revenue_per_session_usd": "3.32319128",
+      "product_margin_before_refunds_usd": "28607.00000000",
+      "sessions_mom": "0.30251555",
+      "orders_mom": "0.21610169",
+      "sales_mom": "0.21934690",
+      "conversion_rate_change_pp": "-0.43601060",
+      "aov_mom": "0.00266853",
+      "revenue_per_session_mom": "-0.06385233"
+    },
+    {
+      "month_start": "2013-12-01",
+      "sessions": 15735,
+      "converted_sessions": 1047,
+      "session_orders": 1047,
+      "orders": 1047,
+      "session_sales_usd": "58262.60000000",
+      "sales_usd": "58262.60000000",
+      "cogs_usd": "22072.60000000",
+      "period_status": "comparable_month",
+      "conversion_rate": "0.06653956",
+      "aov_usd": "55.64718243",
+      "revenue_per_session_usd": "3.70273912",
+      "product_margin_before_refunds_usd": "36190.00000000",
+      "sessions_mom": "0.12136545",
+      "orders_mom": "0.21602787",
+      "sales_mom": "0.24943868",
+      "conversion_rate_change_pp": "0.51798123",
+      "aov_mom": "0.02747536",
+      "revenue_per_session_mom": "0.11421185"
+    },
+    {
+      "month_start": "2014-01-01",
+      "sessions": 14825,
+      "converted_sessions": 983,
+      "session_orders": 983,
+      "orders": 982,
+      "session_sales_usd": "56628.88000000",
+      "sales_usd": "56568.89000000",
+      "cogs_usd": "21202.39000000",
+      "period_status": "comparable_month",
+      "conversion_rate": "0.06630691",
+      "aov_usd": "57.60579430",
+      "revenue_per_session_usd": "3.81982327",
+      "product_margin_before_refunds_usd": "35366.50000000",
+      "sessions_mom": "-0.05783286",
+      "orders_mom": "-0.06208214",
+      "sales_mom": "-0.02907028",
+      "conversion_rate_change_pp": "-0.02326475",
+      "aov_mom": "0.03519696",
+      "revenue_per_session_mom": "0.03162096"
+    },
+    {
+      "month_start": "2014-02-01",
+      "sessions": 16285,
+      "converted_sessions": 1021,
+      "session_orders": 1021,
+      "orders": 1021,
+      "session_sales_usd": "66032.51000000",
+      "sales_usd": "66012.52000000",
+      "cogs_usd": "24250.52000000",
+      "period_status": "comparable_month",
+      "conversion_rate": "0.06269573",
+      "aov_usd": "64.65476983",
+      "revenue_per_session_usd": "4.05480565",
+      "product_margin_before_refunds_usd": "41762.00000000",
+      "sessions_mom": "0.09848229",
+      "orders_mom": "0.03971487",
+      "sales_mom": "0.16694034",
+      "conversion_rate_change_pp": "-0.36111817",
+      "aov_mom": "0.12236574",
+      "revenue_per_session_mom": "0.06151656"
+    },
+    {
+      "month_start": "2014-03-01",
+      "sessions": 15669,
+      "converted_sessions": 1065,
+      "session_orders": 1065,
+      "orders": 1066,
+      "session_sales_usd": "68109.75000000",
+      "sales_usd": "68189.73000000",
+      "cogs_usd": "25121.23000000",
+      "period_status": "comparable_month",
+      "conversion_rate": "0.06796860",
+      "aov_usd": "63.96785178",
+      "revenue_per_session_usd": "4.34678346",
+      "product_margin_before_refunds_usd": "43068.50000000",
+      "sessions_mom": "-0.03782622",
+      "orders_mom": "0.04407444",
+      "sales_mom": "0.03298177",
+      "conversion_rate_change_pp": "0.52728682",
+      "aov_mom": "-0.01062440",
+      "revenue_per_session_mom": "0.07200784"
+    },
+    {
+      "month_start": "2014-04-01",
+      "sessions": 17353,
+      "converted_sessions": 1241,
+      "session_orders": 1241,
+      "orders": 1241,
+      "session_sales_usd": "78725.43000000",
+      "sales_usd": "78725.43000000",
+      "cogs_usd": "29011.93000000",
+      "period_status": "comparable_month",
+      "conversion_rate": "0.07151501",
+      "aov_usd": "63.43709106",
+      "revenue_per_session_usd": "4.53670432",
+      "product_margin_before_refunds_usd": "49713.50000000",
+      "sessions_mom": "0.10747336",
+      "orders_mom": "0.16416510",
+      "sales_mom": "0.15450567",
+      "conversion_rate_change_pp": "0.35464114",
+      "aov_mom": "-0.00829730",
+      "revenue_per_session_mom": "0.04369228"
+    },
+    {
+      "month_start": "2014-05-01",
+      "sessions": 18061,
+      "converted_sessions": 1368,
+      "session_orders": 1368,
+      "orders": 1368,
+      "session_sales_usd": "88935.27000000",
+      "sales_usd": "88935.27000000",
+      "cogs_usd": "32767.77000000",
+      "period_status": "comparable_month",
+      "conversion_rate": "0.07574331",
+      "aov_usd": "65.01116228",
+      "revenue_per_session_usd": "4.92416090",
+      "product_margin_before_refunds_usd": "56167.50000000",
+      "sessions_mom": "0.04079986",
+      "orders_mom": "0.10233683",
+      "sales_mom": "0.12968922",
+      "conversion_rate_change_pp": "0.42283025",
+      "aov_mom": "0.02481311",
+      "revenue_per_session_mom": "0.08540486"
+    },
+    {
+      "month_start": "2014-06-01",
+      "sessions": 17715,
+      "converted_sessions": 1239,
+      "session_orders": 1239,
+      "orders": 1239,
+      "session_sales_usd": "80051.25000000",
+      "sales_usd": "80051.25000000",
+      "cogs_usd": "29450.75000000",
+      "period_status": "comparable_month",
+      "conversion_rate": "0.06994073",
+      "aov_usd": "64.60956416",
+      "revenue_per_session_usd": "4.51883997",
+      "product_margin_before_refunds_usd": "50600.50000000",
+      "sessions_mom": "-0.01915730",
+      "orders_mom": "-0.09429825",
+      "sales_mom": "-0.09989310",
+      "conversion_rate_change_pp": "-0.58025861",
+      "aov_mom": "-0.00617737",
+      "revenue_per_session_mom": "-0.08231269"
+    },
+    {
+      "month_start": "2014-07-01",
+      "sessions": 19038,
+      "converted_sessions": 1287,
+      "session_orders": 1287,
+      "orders": 1286,
+      "session_sales_usd": "83348.54000000",
+      "sales_usd": "83288.55000000",
+      "cogs_usd": "30722.05000000",
+      "period_status": "comparable_month",
+      "conversion_rate": "0.06760164",
+      "aov_usd": "64.76559098",
+      "revenue_per_session_usd": "4.37800924",
+      "product_margin_before_refunds_usd": "52566.50000000",
+      "sessions_mom": "0.07468247",
+      "orders_mom": "0.03793382",
+      "sales_mom": "0.04044034",
+      "conversion_rate_change_pp": "-0.23390894",
+      "aov_mom": "0.00241492",
+      "revenue_per_session_mom": "-0.03116524"
+    },
+    {
+      "month_start": "2014-08-01",
+      "sessions": 18590,
+      "converted_sessions": 1324,
+      "session_orders": 1324,
+      "orders": 1325,
+      "session_sales_usd": "84656.09000000",
+      "sales_usd": "84716.08000000",
+      "cogs_usd": "31137.08000000",
+      "period_status": "comparable_month",
+      "conversion_rate": "0.07122109",
+      "aov_usd": "63.93666415",
+      "revenue_per_session_usd": "4.55385100",
+      "product_margin_before_refunds_usd": "53579.00000000",
+      "sessions_mom": "-0.02353188",
+      "orders_mom": "0.03032659",
+      "sales_mom": "0.01713957",
+      "conversion_rate_change_pp": "0.36194478",
+      "aov_mom": "-0.01279888",
+      "revenue_per_session_mom": "0.04016477"
+    },
+    {
+      "month_start": "2014-09-01",
+      "sessions": 19513,
+      "converted_sessions": 1424,
+      "session_orders": 1424,
+      "orders": 1424,
+      "session_sales_usd": "92232.49000000",
+      "sales_usd": "92232.49000000",
+      "cogs_usd": "33922.99000000",
+      "period_status": "comparable_month",
+      "conversion_rate": "0.07297699",
+      "aov_usd": "64.77000702",
+      "revenue_per_session_usd": "4.72672014",
+      "product_margin_before_refunds_usd": "58309.50000000",
+      "sessions_mom": "0.04965035",
+      "orders_mom": "0.07471698",
+      "sales_mom": "0.08872471",
+      "conversion_rate_change_pp": "0.17559031",
+      "aov_mom": "0.01303388",
+      "revenue_per_session_mom": "0.03796109"
+    },
+    {
+      "month_start": "2014-10-01",
+      "sessions": 21526,
+      "converted_sessions": 1609,
+      "session_orders": 1609,
+      "orders": 1609,
+      "session_sales_usd": "103905.98000000",
+      "sales_usd": "103905.98000000",
+      "cogs_usd": "38158.98000000",
+      "period_status": "comparable_month",
+      "conversion_rate": "0.07474682",
+      "aov_usd": "64.57798633",
+      "revenue_per_session_usd": "4.82699898",
+      "product_margin_before_refunds_usd": "65747.00000000",
+      "sessions_mom": "0.10316199",
+      "orders_mom": "0.12991573",
+      "sales_mom": "0.12656592",
+      "conversion_rate_change_pp": "0.17698281",
+      "aov_mom": "-0.00296465",
+      "revenue_per_session_mom": "0.02121531"
+    },
+    {
+      "month_start": "2014-11-01",
+      "sessions": 25125,
+      "converted_sessions": 1985,
+      "session_orders": 1985,
+      "orders": 1985,
+      "session_sales_usd": "128162.98000000",
+      "sales_usd": "128162.98000000",
+      "cogs_usd": "47177.98000000",
+      "period_status": "comparable_month",
+      "conversion_rate": "0.07900498",
+      "aov_usd": "64.56573300",
+      "revenue_per_session_usd": "5.10101413",
+      "product_margin_before_refunds_usd": "80985.00000000",
+      "sessions_mom": "0.16719316",
+      "orders_mom": "0.23368552",
+      "sales_mom": "0.23345143",
+      "conversion_rate_change_pp": "0.42581573",
+      "aov_mom": "-0.00018974",
+      "revenue_per_session_mom": "0.05676719"
+    },
+    {
+      "month_start": "2014-12-01",
+      "sessions": 29722,
+      "converted_sessions": 2314,
+      "session_orders": 2314,
+      "orders": 2314,
+      "session_sales_usd": "144823.02000000",
+      "sales_usd": "144823.02000000",
+      "cogs_usd": "52966.02000000",
+      "period_status": "comparable_month",
+      "conversion_rate": "0.07785479",
+      "aov_usd": "62.58557476",
+      "revenue_per_session_usd": "4.87258664",
+      "product_margin_before_refunds_usd": "91857.00000000",
+      "sessions_mom": "0.18296517",
+      "orders_mom": "0.16574307",
+      "sales_mom": "0.12999105",
+      "conversion_rate_change_pp": "-0.11501874",
+      "aov_mom": "-0.03066887",
+      "revenue_per_session_mom": "-0.04478080"
+    },
+    {
+      "month_start": "2015-01-01",
+      "sessions": 25337,
+      "converted_sessions": 2099,
+      "session_orders": 2099,
+      "orders": 2098,
+      "session_sales_usd": "132291.52000000",
+      "sales_usd": "132211.54000000",
+      "cogs_usd": "48300.54000000",
+      "period_status": "comparable_month",
+      "conversion_rate": "0.08284327",
+      "aov_usd": "63.01789323",
+      "revenue_per_session_usd": "5.22127797",
+      "product_margin_before_refunds_usd": "83911.00000000",
+      "sessions_mom": "-0.14753381",
+      "orders_mom": "-0.09334486",
+      "sales_mom": "-0.08708201",
+      "conversion_rate_change_pp": "0.49884850",
+      "aov_mom": "0.00690764",
+      "revenue_per_session_mom": "0.07156185"
+    },
+    {
+      "month_start": "2015-02-01",
+      "sessions": 23778,
+      "converted_sessions": 2067,
+      "session_orders": 2067,
+      "orders": 2068,
+      "session_sales_usd": "129132.96000000",
+      "sales_usd": "129212.94000000",
+      "cogs_usd": "47206.94000000",
+      "period_status": "comparable_month",
+      "conversion_rate": "0.08692909",
+      "aov_usd": "62.48207930",
+      "revenue_per_session_usd": "5.43077467",
+      "product_margin_before_refunds_usd": "82006.00000000",
+      "sessions_mom": "-0.06153057",
+      "orders_mom": "-0.01429933",
+      "sales_mom": "-0.02268032",
+      "conversion_rate_change_pp": "0.40858214",
+      "aov_mom": "-0.00850257",
+      "revenue_per_session_mom": "0.04012364"
+    },
+    {
+      "month_start": "2015-03-01",
+      "sessions": 15083,
+      "converted_sessions": 1254,
+      "session_orders": 1254,
+      "orders": 1254,
+      "session_sales_usd": "78951.07000000",
+      "sales_usd": "78951.07000000",
+      "cogs_usd": "28920.57000000",
+      "period_status": "boundary_month",
+      "conversion_rate": "0.08313996",
+      "aov_usd": "62.95938596",
+      "revenue_per_session_usd": "5.23444076",
+      "product_margin_before_refunds_usd": "50030.50000000",
+      "sessions_mom": null,
+      "orders_mom": null,
+      "sales_mom": null,
+      "conversion_rate_change_pp": null,
+      "aov_mom": null,
+      "revenue_per_session_mom": null
+    }
+  ]
+}

@@ -1,0 +1,177 @@
+{
+  "source_generated_at": "2026-11-02T00:01:40+08:00",
+  "source_sha256": "f0f44826371070b3dd0fba0a218fbd19f0b0725f7c0169559a32aa8789af9078",
+  "validation_passed": 151,
+  "audit_rows": 549,
+  "csv_checks": [
+    {
+      "file": "funnel_groups.csv",
+      "rows": 211,
+      "matched": true
+    },
+    {
+      "file": "funnel_stages.csv",
+      "rows": 1688,
+      "matched": true
+    },
+    {
+      "file": "funnel_comparisons.csv",
+      "rows": 560,
+      "matched": true
+    },
+    {
+      "file": "funnel_page_inventory.csv",
+      "rows": 16,
+      "matched": true
+    }
+  ],
+  "review_notes": [],
+  "year_2014_device_stage_gaps": [
+    {
+      "stage": "ordered_products",
+      "label": "首次页面 → 商品列表",
+      "desktop_rate": "0.59692395",
+      "mobile_rate": "0.48554520",
+      "mobile_minus_desktop_pp": "-11.13787473"
+    },
+    {
+      "stage": "ordered_detail",
+      "label": "商品列表 → 商品详情",
+      "desktop_rate": "0.88123142",
+      "mobile_rate": "0.69722127",
+      "mobile_minus_desktop_pp": "-18.40101514"
+    },
+    {
+      "stage": "ordered_cart",
+      "label": "商品详情 → 购物车",
+      "desktop_rate": "0.46095832",
+      "mobile_rate": "0.42027227",
+      "mobile_minus_desktop_pp": "-4.06860493"
+    },
+    {
+      "stage": "ordered_shipping",
+      "label": "购物车 → 配送",
+      "desktop_rate": "0.70112169",
+      "mobile_rate": "0.59713074",
+      "mobile_minus_desktop_pp": "-10.39909479"
+    },
+    {
+      "stage": "ordered_billing",
+      "label": "配送 → 支付",
+      "desktop_rate": "0.83010590",
+      "mobile_rate": "0.69990934",
+      "mobile_minus_desktop_pp": "-13.01965620"
+    },
+    {
+      "stage": "ordered_thank_you",
+      "label": "支付 → 确认页",
+      "desktop_rate": "0.65067432",
+      "mobile_rate": "0.55677893",
+      "mobile_minus_desktop_pp": "-9.38953919"
+    }
+  ],
+  "december_stage_changes": [
+    {
+      "comparison": "dec_vs_nov_2014",
+      "grouping": "overall",
+      "channel": "all",
+      "device_type": "all",
+      "landing_url": "all",
+      "from_stage": "pageview_sessions",
+      "to_stage": "ordered_products",
+      "old_previous_sessions": 25125,
+      "new_previous_sessions": 29722,
+      "old_stage_sessions": 14476,
+      "new_stage_sessions": 17240,
+      "old_step_rate": "0.57615920",
+      "new_step_rate": "0.58004172",
+      "step_rate_change_pp": "0.38825160",
+      "low_volume_review": false
+    },
+    {
+      "comparison": "dec_vs_nov_2014",
+      "grouping": "overall",
+      "channel": "all",
+      "device_type": "all",
+      "landing_url": "all",
+      "from_stage": "ordered_products",
+      "to_stage": "ordered_detail",
+      "old_previous_sessions": 14476,
+      "new_previous_sessions": 17240,
+      "old_stage_sessions": 12020,
+      "new_stage_sessions": 14609,
+      "old_step_rate": "0.83033987",
+      "new_step_rate": "0.84738979",
+      "step_rate_change_pp": "1.70499183",
+      "low_volume_review": false
+    },
+    {
+      "comparison": "dec_vs_nov_2014",
+      "grouping": "overall",
+      "channel": "all",
+      "device_type": "all",
+      "landing_url": "all",
+      "from_stage": "ordered_detail",
+      "to_stage": "ordered_cart",
+      "old_previous_sessions": 12020,
+      "new_previous_sessions": 14609,
+      "old_stage_sessions": 5449,
+      "new_stage_sessions": 6730,
+      "old_step_rate": "0.45332779",
+      "new_step_rate": "0.46067493",
+      "step_rate_change_pp": "0.73471394",
+      "low_volume_review": false
+    },
+    {
+      "comparison": "dec_vs_nov_2014",
+      "grouping": "overall",
+      "channel": "all",
+      "device_type": "all",
+      "landing_url": "all",
+      "from_stage": "ordered_cart",
+      "to_stage": "ordered_shipping",
+      "old_previous_sessions": 5449,
+      "new_previous_sessions": 6730,
+      "old_stage_sessions": 3741,
+      "new_stage_sessions": 4546,
+      "old_step_rate": "0.68654799",
+      "new_step_rate": "0.67548291",
+      "step_rate_change_pp": "-1.10650781",
+      "low_volume_review": false
+    },
+    {
+      "comparison": "dec_vs_nov_2014",
+      "grouping": "overall",
+      "channel": "all",
+      "device_type": "all",
+      "landing_url": "all",
+      "from_stage": "ordered_shipping",
+      "to_stage": "ordered_billing",
+      "old_previous_sessions": 3741,
+      "new_previous_sessions": 4546,
+      "old_stage_sessions": 3031,
+      "new_stage_sessions": 3670,
+      "old_step_rate": "0.81021117",
+      "new_step_rate": "0.80730312",
+      "step_rate_change_pp": "-0.29080499",
+      "low_volume_review": false
+    },
+    {
+      "comparison": "dec_vs_nov_2014",
+      "grouping": "overall",
+      "channel": "all",
+      "device_type": "all",
+      "landing_url": "all",
+      "from_stage": "ordered_billing",
+      "to_stage": "ordered_thank_you",
+      "old_previous_sessions": 3031,
+      "new_previous_sessions": 3670,
+      "old_stage_sessions": 1985,
+      "new_stage_sessions": 2314,
+      "old_step_rate": "0.65489937",
+      "new_step_rate": "0.63051771",
+      "step_rate_change_pp": "-2.43816620",
+      "low_volume_review": false
+    }
+  ]
+}

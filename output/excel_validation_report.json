@@ -1,0 +1,173 @@
+{
+  "status": "PASS",
+  "checked_at": "2026-11-04T11:23:05+00:00",
+  "workbook": "output/ecommerce_dashboard.xlsx",
+  "sha256": "8fd9fd2806e461c23bc24702823d6249306488e8709a02d777cf265b51e6e41b",
+  "selected_period": {
+    "start": "2014-01-01",
+    "end": "2014-12-01"
+  },
+  "sheet_names": [
+    "经营总览",
+    "渠道设备",
+    "购买漏斗",
+    "商品退款",
+    "月度数据",
+    "渠道数据",
+    "漏斗数据",
+    "商品数据"
+  ],
+  "chart_count": 6,
+  "cached_metric_checks": [
+    {
+      "cell": "经营总览!B7",
+      "cached_value": 233422,
+      "expected": "233422",
+      "matched": true
+    },
+    {
+      "cell": "经营总览!B8",
+      "cached_value": 16860,
+      "expected": "16860",
+      "matched": true
+    },
+    {
+      "cell": "经营总览!B9",
+      "cached_value": 16860,
+      "expected": "16860",
+      "matched": true
+    },
+    {
+      "cell": "经营总览!B10",
+      "cached_value": 1075612.19,
+      "expected": "1075612.19000000",
+      "matched": true
+    },
+    {
+      "cell": "经营总览!B11",
+      "cached_value": 0.07222969557282519,
+      "expected": "0.07222969557282518357309936510",
+      "matched": true
+    },
+    {
+      "cell": "经营总览!B12",
+      "cached_value": 63.79668979833926,
+      "expected": "63.79668979833926453143534994",
+      "matched": true
+    },
+    {
+      "cell": "经营总览!B13",
+      "cached_value": 4.608015482688007,
+      "expected": "4.608015482688007128719657959",
+      "matched": true
+    },
+    {
+      "cell": "经营总览!B14",
+      "cached_value": 1.3393238434163701,
+      "expected": "1.339323843416370106761565836",
+      "matched": true
+    },
+    {
+      "cell": "经营总览!B15",
+      "cached_value": 0.3393238434163701,
+      "expected": "0.3393238434163701067615658363",
+      "matched": true
+    },
+    {
+      "cell": "购买漏斗!B15",
+      "cached_value": 16860,
+      "expected": 16860,
+      "matched": true
+    },
+    {
+      "cell": "商品退款!B8",
+      "cached_value": 605878.8,
+      "expected": "605878.80000000",
+      "matched": true
+    },
+    {
+      "cell": "商品退款!G8",
+      "cached_value": 12120,
+      "expected": 12120,
+      "matched": true
+    },
+    {
+      "cell": "商品退款!I8",
+      "cached_value": 0.053052805280528054,
+      "expected": "0.05305280528052805280528052805",
+      "matched": true
+    },
+    {
+      "cell": "商品退款!B9",
+      "cached_value": 192687.88000000003,
+      "expected": "192687.88000000",
+      "matched": true
+    },
+    {
+      "cell": "商品退款!G9",
+      "cached_value": 3212,
+      "expected": 3212,
+      "matched": true
+    },
+    {
+      "cell": "商品退款!I9",
+      "cached_value": 0.022727272727272728,
+      "expected": "0.02272727272727272727272727273",
+      "matched": true
+    },
+    {
+      "cell": "商品退款!B10",
+      "cached_value": 171450.72000000003,
+      "expected": "171450.72000000",
+      "matched": true
+    },
+    {
+      "cell": "商品退款!G10",
+      "cached_value": 3728,
+      "expected": 3728,
+      "matched": true
+    },
+    {
+      "cell": "商品退款!I10",
+      "cached_value": 0.05954935622317597,
+      "expected": "0.05954935622317596566523605150",
+      "matched": true
+    },
+    {
+      "cell": "商品退款!B11",
+      "cached_value": 105594.79,
+      "expected": "105594.79000000",
+      "matched": true
+    },
+    {
+      "cell": "商品退款!G11",
+      "cached_value": 3521,
+      "expected": 3521,
+      "matched": true
+    },
+    {
+      "cell": "商品退款!I11",
+      "cached_value": 0.013348480545299631,
+      "expected": "0.01334848054529963078670832150",
+      "matched": true
+    },
+    {
+      "cell": "渠道设备!D30",
+      "cached_value": 0.09182505593991924,
+      "expected": "0.09182505593991924076026851161",
+      "matched": true
+    },
+    {
+      "cell": "渠道设备!D31",
+      "cached_value": 0.033107396852294024,
+      "expected": "0.03310739685229402552055251739",
+      "matched": true
+    }
+  ],
+  "saved_errors": [],
+  "file_unchanged": true,
+  "limits": [
+    "只核对已保存期间的计算缓存，没有执行 Excel 公式重算或全月份交互测试。",
+    "窗口退款依赖已观测数据，不证明完整采集。"
+  ]
+}

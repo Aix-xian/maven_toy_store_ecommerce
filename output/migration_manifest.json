@@ -1,0 +1,349 @@
+{
+  "status": "PASS",
+  "scope": "GitHub portfolio repository",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 232,
+      "sha256": "eec51244508b88514dc2ef4462ea56819f3d68afc22b7ba24f82adf238b35202"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 534,
+      "sha256": "0c0c322f73e49f3535305959511bf28508a084be158e3b7696ebf3f1428171e8"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4644,
+      "sha256": "7a31ef3483bfd1d4a897bad8bd6a2ac204c816622ae5075387a6a80ecbc2c7e6"
+    },
+    {
+      "path": "assets/data_dictionary.csv",
+      "bytes": 2538,
+      "sha256": "200877f159ad9ea59780c9a9083a7161423b58225a23db4ffb9fc419ae61c199"
+    },
+    {
+      "path": "assets/data_source.md",
+      "bytes": 1478,
+      "sha256": "3d7576587ab7673192875bac736b30ee4ca9f474ecadb2cecad2551044925129"
+    },
+    {
+      "path": "docs/business_report.md",
+      "bytes": 25765,
+      "sha256": "110a7113e307966da6344cdf8f4c76b36556a9c6c64eb355c20a1ad3ee4569e1"
+    },
+    {
+      "path": "docs/channel_methodology.md",
+      "bytes": 9341,
+      "sha256": "f0590c4f89159196ab8784a78a0f347fd2fa6136812ae1da4ba80ab637116bec"
+    },
+    {
+      "path": "docs/environment_setup.md",
+      "bytes": 3891,
+      "sha256": "c6c9c6908c0cd82374d2fca16830f2a93c4adcb1be204a6e89118169f4484ee3"
+    },
+    {
+      "path": "docs/excel_guide.md",
+      "bytes": 2887,
+      "sha256": "0feed40668838b4340c0fa62f7c19701c5f2d00c7dac2fd07ca76dfe57d59c77"
+    },
+    {
+      "path": "docs/funnel_methodology.md",
+      "bytes": 7576,
+      "sha256": "07216a2e1d6226297ab1e11ca20a05a1d8e5f50a48ef6127892436e85035a1f0"
+    },
+    {
+      "path": "docs/metric_definitions.md",
+      "bytes": 5872,
+      "sha256": "ab25ef5d82600ddb9ee341293422eca5dff4d2aa9df20eb8eedc5afa01ff38ca"
+    },
+    {
+      "path": "docs/product_methodology.md",
+      "bytes": 9119,
+      "sha256": "160d1a9fee96220ad9f831caa01203ed8d02984a5aca5fbe9b7cfec5399c4a6e"
+    },
+    {
+      "path": "docs/project_process.md",
+      "bytes": 4898,
+      "sha256": "9c73ba9d4570a19a233572cf33cdbef0af6d48877a28a66803fdae2afe86a1b0"
+    },
+    {
+      "path": "env/environment_notes.md",
+      "bytes": 403,
+      "sha256": "452aef177564d52e102d1be10519904bfde1e342f475a554b047009d4aa0f5c9"
+    },
+    {
+      "path": "env/requirements.txt",
+      "bytes": 72,
+      "sha256": "aa8e2b95dd92f35f97803908d772f262e05261ab89fb5da65d94ed85e0620f1e"
+    },
+    {
+      "path": "env/requirements_lock.txt",
+      "bytes": 207,
+      "sha256": "e1d8a55a668297937e1128dcdbf06469c89060fe4ca8d0cb97483beddb9ab4f5"
+    },
+    {
+      "path": "output/channel_analysis_report.json",
+      "bytes": 259928,
+      "sha256": "bc4131be08a0da017e9a8aa25dad1f395f7dbb5ae00a06ecc2a527ebd791214e"
+    },
+    {
+      "path": "output/channel_comparisons.csv",
+      "bytes": 17677,
+      "sha256": "5211c35e3546a424d1efa79da54e1c3d1fa6b4554f4f9a162193624ec97a486b"
+    },
+    {
+      "path": "output/channel_decomposition.csv",
+      "bytes": 27881,
+      "sha256": "aa98a09fd866c53c7d98db56103adb04034c96b224d93e55a9b75cf561d331ae"
+    },
+    {
+      "path": "output/channel_findings.json",
+      "bytes": 7387,
+      "sha256": "1e439ae7e358754e55e864e2359c6d1eb5164240e64a6da18ebf2808f764a833"
+    },
+    {
+      "path": "output/channel_monthly.csv",
+      "bytes": 72761,
+      "sha256": "fe929b1a5d623056a0031c70a3defeac967917df7248769236cc8df65903afb5"
+    },
+    {
+      "path": "output/channel_summary.csv",
+      "bytes": 27623,
+      "sha256": "baae6e11c68650b9a9f6d821ea577f70302e907d5d3057ac3e44bce7d149c2dd"
+    },
+    {
+      "path": "output/data_quality_report.json",
+      "bytes": 6549,
+      "sha256": "ec64bacdac140db3d130d870d01be875f9991e6dd25f33137b7a3a5ff65b28f7"
+    },
+    {
+      "path": "output/ecommerce_dashboard.xlsx",
+      "bytes": 155415,
+      "sha256": "8fd9fd2806e461c23bc24702823d6249306488e8709a02d777cf265b51e6e41b"
+    },
+    {
+      "path": "output/excel_validation_report.json",
+      "bytes": 4250,
+      "sha256": "de3f9d5b44a37a6c2cc79927f4c6e8fbc60810e7e2a50df464dc6088eedec75d"
+    },
+    {
+      "path": "output/funnel_analysis_report.json",
+      "bytes": 1249318,
+      "sha256": "f0f44826371070b3dd0fba0a218fbd19f0b0725f7c0169559a32aa8789af9078"
+    },
+    {
+      "path": "output/funnel_comparisons.csv",
+      "bytes": 80524,
+      "sha256": "4dd5a470bcbdedbd5f13019ab75a06348616478495f3e96938e3ba0c0788648f"
+    },
+    {
+      "path": "output/funnel_findings.json",
+      "bytes": 5115,
+      "sha256": "95efa31a976eb01e93063ac6964c93585ec498eefdebd603fcee6d1fcf8eccb2"
+    },
+    {
+      "path": "output/funnel_groups.csv",
+      "bytes": 44459,
+      "sha256": "0a753cbffa4dc10b34f5c72d302ebdba316730d06d3bd0d5655677c567a5017c"
+    },
+    {
+      "path": "output/funnel_page_inventory.csv",
+      "bytes": 495,
+      "sha256": "3488cc953102f841dc0683e54d8fd01db31b86528e1dd77d24f9c1fc6675ef2d"
+    },
+    {
+      "path": "output/funnel_stages.csv",
+      "bytes": 175837,
+      "sha256": "bcf526ccceacd63f9b49721d726f5060f6b94979f670671c26618cc240d79874"
+    },
+    {
+      "path": "output/import_summary.json",
+      "bytes": 675,
+      "sha256": "4e68e70873d77e2f79c776d12d49796594aa2dc601658cb281ab66797d64cac9"
+    },
+    {
+      "path": "output/monthly_findings.json",
+      "bytes": 3754,
+      "sha256": "56bbfb499bcf62ccc1860752a7e1745608d89560d6d28e9ca4334b70683ccace"
+    },
+    {
+      "path": "output/monthly_overview.csv",
+      "bytes": 7828,
+      "sha256": "87709cbbfeacfab4e830a5ab091ab7217d56f8ace93c85dce0bdc89e69594817"
+    },
+    {
+      "path": "output/monthly_overview_comparable.csv",
+      "bytes": 7543,
+      "sha256": "0d8507af183675c0a8fdc88febe2e395c3703cc7cd812ca7bf4446a67fea3f30"
+    },
+    {
+      "path": "output/monthly_overview_report.json",
+      "bytes": 40536,
+      "sha256": "9846f97d4e1d252d6611ee57a1d57568e5b57626defdeb8de41b17fd9ebdd098"
+    },
+    {
+      "path": "output/product_analysis_report.json",
+      "bytes": 176217,
+      "sha256": "1268c0ef765e9ac438237f04a6b22cb969d7ce965a063b40e87ef6e5f2820588"
+    },
+    {
+      "path": "output/product_baskets.csv",
+      "bytes": 6609,
+      "sha256": "d43eb37a3438731700f556d1e6ea86d9e15109d2f4147343ae1c567e051ae8ef"
+    },
+    {
+      "path": "output/product_comparisons.csv",
+      "bytes": 1893,
+      "sha256": "2cf5a932783f093243f346ac0f062a5bea3e7f383a39f3bab46f39983f9d9e28"
+    },
+    {
+      "path": "output/product_findings.json",
+      "bytes": 14447,
+      "sha256": "664b224984403e51199187dc8cd432b3f498bf3ac69645529d0f6082fdeac47e"
+    },
+    {
+      "path": "output/product_monthly.csv",
+      "bytes": 20111,
+      "sha256": "b2fb85a4e29ccd2fce22d990ce123e984d9773bee7e2cd186200452048451802"
+    },
+    {
+      "path": "output/product_pairs.csv",
+      "bytes": 3933,
+      "sha256": "cedc2f59b5b3b80b33506978f7d2df3121cc25f4f68576ac42e7ec308e7761fe"
+    },
+    {
+      "path": "output/product_summary.csv",
+      "bytes": 7287,
+      "sha256": "1744cdc4397f4d89b9f2b59b6e38c0f561085f54503427c2914a13f8ab1b75f6"
+    },
+    {
+      "path": "src/build_excel_dashboard.py",
+      "bytes": 29154,
+      "sha256": "cf9479e998ea9d130afcbc202cbf587a5c3b3880b6d81a989abe61019083fb1b"
+    },
+    {
+      "path": "src/channel_analysis.py",
+      "bytes": 20131,
+      "sha256": "cb25e0173f812a0e3102091f53d92877af8249fb25d36fea71005ef54251969a"
+    },
+    {
+      "path": "src/channel_analysis.sql",
+      "bytes": 1196,
+      "sha256": "ee73bed61deb5d5a01f79f4f9e024118ff85a1f862a8b9c11576135de6cec5ea"
+    },
+    {
+      "path": "src/check_data_quality.py",
+      "bytes": 15976,
+      "sha256": "c9e3b1c8c58dc5809a2787ddefd75d4b1486e4498e1de5482964b94a5357a8bb"
+    },
+    {
+      "path": "src/check_environment.py",
+      "bytes": 2368,
+      "sha256": "d1505c9145d8bf580b2572c8ffb0b3b7a215972cb4e9019144d46dcfa770e2e6"
+    },
+    {
+      "path": "src/create_tables.sql",
+      "bytes": 3243,
+      "sha256": "2283732c81dbbde6804732393f7b9176ac61e96d50c88a17351179bc39403bd0"
+    },
+    {
+      "path": "src/funnel_analysis.py",
+      "bytes": 15897,
+      "sha256": "4376ed183e820d3340fe85f3dde16ebc6df48d11bdab003e4d0b9ce230a8f24d"
+    },
+    {
+      "path": "src/funnel_analysis.sql",
+      "bytes": 6390,
+      "sha256": "4505994866ee0910fc13430b97b1f4b3faa7b65a6c69c90e0772136d028c17cf"
+    },
+    {
+      "path": "src/import_data.py",
+      "bytes": 2513,
+      "sha256": "182ef6265bb5c5663e0d734d6f606bf396904b1adf0a6e5a34a40e971f1648fd"
+    },
+    {
+      "path": "src/initialize_database.sql",
+      "bytes": 287,
+      "sha256": "5f8b783c0ab89afab42f8c64cdb969175b5e429972a8f4dd4844cca55b31aa94"
+    },
+    {
+      "path": "src/monthly_overview.py",
+      "bytes": 13162,
+      "sha256": "ec38edf4b13ac479c3c523dfa9d74ee7d9a5d22b06227ef26f95c0f6d9a0a94b"
+    },
+    {
+      "path": "src/monthly_overview.sql",
+      "bytes": 2298,
+      "sha256": "34d5be7401ab5a82e5cd5020cda605ee18a3a92a912c04ec5ad2dd458b242b89"
+    },
+    {
+      "path": "src/product_analysis.py",
+      "bytes": 22190,
+      "sha256": "3a6da4f26cc572c365a0f8b9f81c1d28af8baf98f6c166d33a4abb9389efbe67"
+    },
+    {
+      "path": "src/product_analysis.sql",
+      "bytes": 437,
+      "sha256": "ff578d1730af1f228fa17133f5a26b5515fcf330bd2c56c72dcdbd027b6192cb"
+    },
+    {
+      "path": "src/product_baskets.sql",
+      "bytes": 903,
+      "sha256": "c10efc7b6ec52f41bdc6968f77105d060705348dcb3c8966e512cd6e7424fb58"
+    },
+    {
+      "path": "src/product_pairs.sql",
+      "bytes": 542,
+      "sha256": "0c406d19469771699edea377b81e27254deafe7a55b70987aa1f35efe8387e57"
+    },
+    {
+      "path": "src/review_channel_results.py",
+      "bytes": 5302,
+      "sha256": "16c39ec59d80c0553d5e0265281616896da4ff91ce748fdec5253f292cbb23fc"
+    },
+    {
+      "path": "src/review_funnel_results.py",
+      "bytes": 3894,
+      "sha256": "fff9419bcfa1b7e78ec08cb4c3e7f1f413f4044650947db7e919a13232b93bb8"
+    },
+    {
+      "path": "src/review_monthly_results.py",
+      "bytes": 5739,
+      "sha256": "1bbd97a28532b6d0e99bb878f025c7b6562bcbba2fddb38d9ae9ad0015abbada"
+    },
+    {
+      "path": "src/review_product_results.py",
+      "bytes": 9108,
+      "sha256": "6dbfa8b042139e030e3d29d9b155165432a095985af67727b75e9d8065a490da"
+    },
+    {
+      "path": "src/validate_project.py",
+      "bytes": 16709,
+      "sha256": "10798443225169216334c9c38d15c35a2df290769e10eb1711aa466334206b85"
+    },
+    {
+      "path": "tests/test_channel_analysis.py",
+      "bytes": 7184,
+      "sha256": "a017e3d1c1832bf80e6f123516e51a98b3a0dad67b269ce3e35137e2d4a68f26"
+    },
+    {
+      "path": "tests/test_funnel_analysis.py",
+      "bytes": 7730,
+      "sha256": "2800a04d09e0241712bbf4c84a5dde011dce6d1b1c72aa0b8896389c7694df97"
+    },
+    {
+      "path": "tests/test_monthly_overview.py",
+      "bytes": 4870,
+      "sha256": "2b5f59c850da4ef362f34040fad7df8919482234f2f8c3c025c7236862a5c78d"
+    },
+    {
+      "path": "tests/test_product_analysis.py",
+      "bytes": 8000,
+      "sha256": "e3903b6d1fbc655204875441b482590d154ffdf05ba17e40855126ec18c37877"
+    }
+  ],
+  "excludes_self_and_validation_record": true,
+  "raw_data": "Download according to assets/data_source.md; detailed audits are generated locally.",
+  "windows_runtime": "not_configured"
+}

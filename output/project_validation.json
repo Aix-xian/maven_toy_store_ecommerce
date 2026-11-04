@@ -1,0 +1,126 @@
+{
+  "status": "PASS",
+  "checked_at": "2026-11-04T11:23:07+00:00",
+  "runtime": "existing_project_isolated_environment",
+  "windows_native_execution": "not_tested",
+  "database_queries": "not_performed",
+  "offline_tests": {
+    "total": 39,
+    "passed": 39,
+    "failed": 0
+  },
+  "analysis_sources": [
+    {
+      "module": "monthly",
+      "core_checks_passed": 126,
+      "source_fingerprint_match": true
+    },
+    {
+      "module": "channel",
+      "core_checks_passed": 149,
+      "source_fingerprint_match": true
+    },
+    {
+      "module": "funnel",
+      "core_checks_passed": 151,
+      "source_fingerprint_match": true
+    },
+    {
+      "module": "product",
+      "core_checks_passed": 222,
+      "source_fingerprint_match": true
+    }
+  ],
+  "csv_checks": [
+    {
+      "path": "output/monthly_overview.csv",
+      "rows": 37,
+      "all_fields_match": true
+    },
+    {
+      "path": "output/monthly_overview_comparable.csv",
+      "rows": 35,
+      "all_fields_match": true
+    },
+    {
+      "path": "output/channel_summary.csv",
+      "rows": 181,
+      "all_fields_match": true
+    },
+    {
+      "path": "output/channel_comparisons.csv",
+      "rows": 77,
+      "all_fields_match": true
+    },
+    {
+      "path": "output/channel_decomposition.csv",
+      "rows": 172,
+      "all_fields_match": true
+    },
+    {
+      "path": "output/funnel_groups.csv",
+      "rows": 211,
+      "all_fields_match": true
+    },
+    {
+      "path": "output/funnel_stages.csv",
+      "rows": 1688,
+      "all_fields_match": true
+    },
+    {
+      "path": "output/funnel_comparisons.csv",
+      "rows": 560,
+      "all_fields_match": true
+    },
+    {
+      "path": "output/funnel_page_inventory.csv",
+      "rows": 16,
+      "all_fields_match": true
+    },
+    {
+      "path": "output/product_monthly.csv",
+      "rows": 94,
+      "all_fields_match": true
+    },
+    {
+      "path": "output/product_summary.csv",
+      "rows": 31,
+      "all_fields_match": true
+    },
+    {
+      "path": "output/product_baskets.csv",
+      "rows": 37,
+      "all_fields_match": true
+    },
+    {
+      "path": "output/product_pairs.csv",
+      "rows": 45,
+      "all_fields_match": true
+    },
+    {
+      "path": "output/product_comparisons.csv",
+      "rows": 12,
+      "all_fields_match": true
+    }
+  ],
+  "migration_summary_outputs_byte_matched": 0,
+  "excel": {
+    "sheets": 8,
+    "charts": 6,
+    "cached_checks": 24,
+    "matched": 24,
+    "sha256": "8fd9fd2806e461c23bc24702823d6249306488e8709a02d777cf265b51e6e41b"
+  },
+  "documents": {
+    "documents": 11,
+    "relative_links_checked": 30,
+    "narrative": "consistent"
+  },
+  "manifest": "output/migration_manifest.json",
+  "manifest_sha256": "da6ed61a3194695abf0ee46240bafb981bb42fffaf687715f53b4d8009f4207a",
+  "tracked_file_count": 70,
+  "limits": [
+    "原始数据、审计明细和运行环境不提交仓库，完整复核需下载并重算。",
+    "Excel 检查覆盖已保存期间，未执行动态交互重算。"
+  ]
+}
