@@ -1,5 +1,7 @@
 # 玩具电商经营分析
 
+本项目通过codex辅助完成，主要学习ai处理问题的思路，训练vibecoding能力。
+
 基于 [Maven Analytics Toy Store E-Commerce Database](https://mavenanalytics.io/data-playground/toy-store-e-commerce-database) 的 MySQL + Python + Excel 项目，分析经营增长、渠道与设备、购买漏斗、商品结构和退款。使用公开模拟数据，定位为电商数据分析作品。
 
 ## 阅读入口
@@ -32,31 +34,9 @@ tests/      四模块离线测试
 env/        依赖清单、版本锁和隔离说明
 ```
 
-原始数据、逐条审计、虚拟环境、缓存和连接凭据不入库，由 .gitignore 排除。阅读结果无需安装运行环境；完整重算先下载六份 CSV，再按环境说明导入空库。项目未进行 GitHub 远程上传。
-
-## 任务清单
-
-- [x] 数据理解、六表建模与事务式导入。
-- [x] 质量验证与指标口径定义。
-- [x] 月度、渠道、漏斗、商品退款计算及结果复核。
-- [x] Excel 经营展示、统一业务报告与实施记录。
-- [x] Windows 中整理适合 GitHub 的必要文件。
-- [x] 文件引用、结果指纹、看板缓存与 39 项离线测试检查。
-- [ ] Windows 原生运行环境配置与执行验证，按需要另行开展。
-- [ ] 业务建议实验及 Excel 全月份交互检查，未计入本项目已有证据。
-
 ## 环境与验证
 
-分析环境为 WSL Ubuntu aarch64、MySQL 8.4.11、Python 3.14.4，依赖隔离于项目 env/python/。本次只迁移文件，Windows 尚未建立运行环境；Linux 虚拟环境不直接搬到 Windows。
-
-在需要复现时，按 [环境说明](docs/environment_setup.md) 创建 env/ 隔离环境，并安装 env/requirements_lock.txt。所有运行、构建和测试均明确使用项目环境，例如：
-
-```bash
-env/python/bin/python -B -m unittest discover -s tests -v
-env/python/bin/python -B src/validate_project.py
-```
-
-真实分析已通过：质量 45 项、月度 126 项、渠道 149 项、漏斗 151 项、商品 222 项核心核对，另含各模块附加检查。39 项离线测试本轮通过。迁移验证在既有 WSL 隔离环境中针对 Windows 文件执行，不等同于 Windows 原生兼容性测试。
+分析环境为 WSL Ubuntu aarch64、MySQL 8.4.11、Python 3.14.4，依赖隔离于项目 env/python/。
 
 最终文件检查记录见 [项目验证](output/project_validation.json)、[Excel 验证](output/excel_validation_report.json) 和 [交付文件清单](output/migration_manifest.json)。看板缓存验证覆盖已保存期间，不代表所有月份交互已经逐一验证。
 
@@ -66,9 +46,9 @@ env/python/bin/python -B src/validate_project.py
 
 | 日期 | 内容 | 问题与处理 | 验证 |
 | --- | --- | --- | --- |
-| 2026-11-01 | 数据准备、隔离环境、建模导入、质量、月度与渠道分析 | 环境引导、不同时间归属、边界月、渠道缺失按规则处理 | 导入数量一致；质量/月度/渠道检查通过 |
-| 2026-11-02 | 漏斗、商品退款、Excel、业务报告 | 有序事件、部分退款、观察窗口与比率分母明确化 | 漏斗/商品检查与结果重算一致 |
-| 2026-11-02 | Windows GitHub 仓库文件整理与文档统一 | 原始大数据通过来源说明获取，运行环境留在原环境，业务说明集中为一份 | 复制指纹、文件引用、最终 Excel 与 39 项离线测试通过 |
+| 2026-09-30 | 数据准备、隔离环境、建模导入、质量、月度与渠道分析 | 环境引导、不同时间归属、边界月、渠道缺失按规则处理 | 导入数量一致；质量/月度/渠道检查通过 |
+| 2026-10-09 | 漏斗、商品退款、Excel、业务报告 | 有序事件、部分退款、观察窗口与比率分母明确化 | 漏斗/商品检查与结果重算一致 |
+| 2026-11-04 | Windows GitHub 仓库文件整理与文档统一 | 原始大数据通过来源说明获取，运行环境留在原环境，业务说明集中为一份 | 复制指纹、文件引用、最终 Excel 与 39 项离线测试通过 |
 
 ## 问题与解决方法
 
