@@ -1,0 +1,35 @@
+# Project runtimes and caches
+env/*
+!env/requirements.txt
+!env/requirements_lock.txt
+!env/environment_notes.md
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+node_modules/
+
+# Local source data and regenerated detailed audits
+assets/raw_data/
+*.zip
+output/channel_audit.csv
+output/funnel_audit.csv
+output/product_item_audit.csv
+output/refund_events_audit.csv
+output/environment_check.json
+
+# Credentials and editor state
+.env
+.env.*
+*.pem
+*.key
+.vscode/
+.idea/
+
+# Temporary and office lock files
+work/
+tmp/
+~$*
+*.tmp
+.DS_Store
+Thumbs.db
